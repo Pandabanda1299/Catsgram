@@ -61,5 +61,6 @@ public class PostController {
             return oldPost;
         }
         throw new NotFoundException("Пост с id = " + newPost.getId() + " не найден");
+
     }
 }
