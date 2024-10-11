@@ -11,4 +11,5 @@ public class User {
     String username;
     String email;
     String password;
+    long registrationDate;
 }
